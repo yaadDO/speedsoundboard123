@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/speedbackround"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-9354629606296819/2322090207"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="4sp"/>
+
+    <Button
+        android:id="@+id/soundButton1"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/red"
+        android:text="SEWEY"
+        />
+
+    <Button
+        android:id="@+id/soundButton2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton1"
+        android:backgroundTint="@color/red"
+        android:text="BARKING"
+        />
+
+    <Button
+        android:id="@+id/soundButton3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton2"
+        android:backgroundTint="@color/red"
+        android:text="ALLAHU AKBAR" />
+
+    <Button
+        android:id="@+id/soundButton4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton3"
+        android:backgroundTint="@color/red"
+        android:text="SHAKE" />
+
+    <Button
+        android:id="@+id/soundButton5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton4"
+        android:backgroundTint="@color/red"
+        android:text="SCREAMING MONSTROUS" />
+
+    <Button
+        android:id="@+id/soundButton6"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/soundButton1"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/red"
+        android:text="DADDY" />
+
+    <Button
+        android:id="@+id/soundButton7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton6"
+        android:backgroundTint="@color/red"
+        android:text="GIRLS WANNA SEE MEN" />
+
+    <Button
+        android:id="@+id/soundButton8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/soundButton7"
+        android:backgroundTint="@color/red"
+        android:text="WHO GON STOP ME" />
+
+        <Button
+            android:id="@+id/soundButton9"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton8"
+            android:text="RAGE GAG"
+            android:backgroundTint="@color/red"
+            />
+
+        <Button
+            android:id="@+id/soundButton10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton9"
+            android:text="GREMLIN"
+            android:backgroundTint="@color/red"
+            />
+
+        <Button
+            android:id="@+id/soundButton11"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton10"
+            android:text="SHORT SCREAM"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:id="@+id/soundButton12"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton11"
+            android:text="POSSESED SCREAM"
+            android:backgroundTint="@color/red"/>
+
+        <Button
+            android:id="@+id/soundButton13"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton12"
+            android:text="FART"
+            android:backgroundTint="@color/red" />
+
+        <Button
+            android:id="@+id/soundButton14"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton13"
+            android:backgroundTint="@color/red"
+            android:layout_height="80dp"
+            android:text="GAGGING" />
+
+        <Button
+            android:id="@+id/soundButton15"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/red"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton14"
+            android:text="PUPPY BARK" />
+
+        <Button
+            android:id="@+id/soundButton16"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton5"
+            android:backgroundTint="@color/red"
+            android:text="BIPOLAR SCREAM" />
+
+        <Button
+            android:id="@+id/soundButton17"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton16"
+            android:backgroundTint="@color/red"
+            android:text="SHORT BARK"
+            />
+
+        <Button
+            android:id="@+id/soundButton18"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton17"
+            android:backgroundTint="@color/red"
+            android:text="GOD IS GOOD"
+            />
+
+        <Button
+            android:id="@+id/soundButton19"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton18"
+            android:backgroundTint="@color/red"
+            android:text="MONKER" />
+
+        <Button
+            android:id="@+id/soundButton20"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton19"
+            android:backgroundTint="@color/red"
+            android:text="FEMALE TALKING TA ME" />
+
+        <Button
+            android:id="@+id/soundButton21"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton20"
+            android:backgroundTint="@color/red"
+            android:text="DRUNKEN SCREAM" />
+
+        <Button
+            android:id="@+id/soundButton22"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton21"
+            android:backgroundTint="@color/red"
+            android:layout_height="80dp"
+            android:text="SNIFF BARK" />
+
+        <Button
+            android:id="@+id/soundButton23"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton22"
+            android:backgroundTint="@color/red"
+            android:text="PIG SNORT" />
+
+        <Button
+            android:id="@+id/soundButton24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton23"
+            android:backgroundTint="@color/red"
+            android:text="FLAT SCREAM" />
+
+        <Button
+            android:id="@+id/soundButton25"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton24"
+            android:backgroundTint="@color/red"
+            android:text="NAN SCREAM"
+            />
+
+
+        <Button
+            android:id="@+id/soundButton27"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton25"
+            android:backgroundTint="@color/red"
+            android:text="FLAT SCREAM" />
+
+        <Button
+            android:id="@+id/soundButton28"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton27"
+            android:backgroundTint="@color/red"
+            android:text="HASAMELIETOWA" />
+
+        <Button
+            android:id="@+id/soundButton29"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton28"
+            android:backgroundTint="@color/red"
+            android:text="GHOSTY" />
+
+        <Button
+            android:id="@+id/soundButton30"
+            android:layout_width="match_parent"
+            android:layout_below="@id/soundButton29"
+            android:backgroundTint="@color/red"
+            android:layout_height="80dp"
+            android:text="FART SCREAM" />
+
+        <Button
+            android:id="@+id/soundButton31"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/soundButton30"
+            android:backgroundTint="@color/red"
+            android:text="TERROR SCREAM" />
+
+
+</LinearLayout>
+
+</ScrollView>
